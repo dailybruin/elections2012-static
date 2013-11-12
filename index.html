@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Elections 2012 | Daily Bruin</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="static/bl/css/bootstrap.min.css">
+		<link rel="stylesheet" href="static/bl/css/main.css">
+		<link href="static/updatedcss.css" rel="stylesheet">
+
+        <script src="static/bl/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+		
+		<!-- load charts -->
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<script type="text/javascript" src="static/bl/js/ticker.js"></script>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=269701246422391";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+	<div id="banner-back">
+		<a href="index.html"><div class="container" id="banner-container">
+			<p>from the UCLA Daily Bruin</p>
+		</div></a>
+	</div><!-- end div#banner-back -->
+
+	<div class="container" id="middle-container">
+		
+		<div class="container"> 
+			<div class="row" id="electionResults">
+				<div class="span8">
+					<h1 class="resultsTitle">Election results</h1>
+					<div class="row">
+						<div class="span4 results" id="candidateResults">
+							<h3>Candidates</h3>
+							<div id="presidentResult">
+								<img src="static/candidates/bobama.jpg" />
+								<span class="candidateTitle democrat">President</span>
+								<span class="candidateName">Barack Obama</span>
+								<span class="candidateParty">Democrat<br /><a href="http://www.dailybruin.com/article/2012/11/battleground-states-help-secure-obama-re-election">Read more &raquo;</a></span>
+								<br style="width:100%;clear:both;display:block" />
+							</div><!-- end div#presidentResult -->
+							<hr />
+							<ul>
+								<li>
+									<img src="static/candidates/jbiden.jpg" />
+									<span class="candidateTitle democrat">Vice President</span>
+									<span class="candidateName">Joseph Biden</span>
+									<span class="candidateParty">Democrat</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+								<li>
+									<img src="static/candidates/dfeinstein.jpg" />
+									<span class="candidateTitle democrat">Senator</span>
+									<span class="candidateName">Dianne Feinstein</span>
+									<span class="candidateParty">Democrat</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+								<li>
+									<img src="static/candidates/hwaxman.jpg" />
+									<span class="candidateTitle democrat">Representative</span>
+									<span class="candidateName">Henry Waxman</span>
+									<span class="candidateParty">Democrat, 33rd District</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+								<li>
+									<img src="static/candidates/hmitchell.jpg" />
+									<span class="candidateTitle democrat">Assembly</span>
+									<span class="candidateName">Holly Mitchell</span>
+									<span class="candidateParty">Democrat, 54th District</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+								<li>
+									<img src="static/candidates/jlacey.jpg" />
+									<span class="candidateTitle">District attorney</span>
+									<span class="candidateName">Jackie Lacey</span>
+									<span class="candidateParty">LA County</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+							</ul>
+						</div><!-- end div#candidateResults -->
+						<div class="span4 results" id="propResults">
+							<h3>Measures</h3>
+							<div id="propThirtyResult">
+								<div class="propBubble propYes">30</div>
+								<span class="propResult propYes">Passed</span>
+								<span class="propName">Jerry Brown's Tax Measure<br /><a href="http://www.dailybruin.com/blog/timestamp/2012/11/proposition-30-approved-by-california-voters">Read more &raquo;</a></span>
+								<br style="width:100%;clear:both;display:block" />
+							</div><!-- end div#propThirtyResult -->
+							<hr />
+							<ul>
+								<li>
+									<div class="propBubble propNo"><span class="propNum">31</span></div>
+									<span class="propResult propNo">Failed</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+								<li>
+									<div class="propBubble propNo"><span class="propNum">32</span></div>
+									<span class="propResult propNo">Failed</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+								<li>
+									<div class="propBubble propNo"><span class="propNum">33</span></div>
+									<span class="propResult propNo">Failed</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+								<li>
+									<div class="propBubble propNo"><span class="propNum">34</span></div>
+									<span class="propResult propNo">Failed</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+								<li>
+									<div class="propBubble propYes"><span class="propNum">35</span></div>
+									<span class="propResult propYes">Passed</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+								<li>
+									<div class="propBubble propYes"><span class="propNum">36</span></div>
+									<span class="propResult propYes">Passed</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+								<li>
+									<div class="propBubble propNo"><span class="propNum">37</span></div>
+									<span class="propResult propNo">Failed</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+								<li>
+									<div class="propBubble propNo"><span class="propNum">38</span></div>
+									<span class="propResult propNo">Failed</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+								<li>
+									<div class="propBubble propYes"><span class="propNum">39</span></div>
+									<span class="propResult propYes">Passed</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+								<li>
+									<div class="propBubble propYes"><span class="propNum">40</span></div>
+									<span class="propResult propYes">Passed</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+							</ul>
+							<br style="clear:both;width:100%;display:block" />
+							<hr />
+							<ul>
+								<li>
+									<div class="propBubble propNo"><span class="propLetter">A</span></div>
+									<span class="propResult propNo">Failed</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+								<li>
+									<div class="propBubble propYes"><span class="propLetter">B</span></div>
+									<span class="propResult propYes">Passed</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+								<li>
+									<div class="propBubble propYes">J</div>
+									<span class="propResult propYes">Passed</span>
+									<br style="width:100%;clear:both;display:block" />
+								</li>
+							</ul>
+							<br style="clear:both;width:100%;display:block" />
+							<hr />
+							<p style="display:block;clear:both;font-style:italic">This page was updated as the official results of the Nov. 6 general election were tallied. Explore the rest of the site for a comprehensive look at the 2012 election through stories, photos, videos, blog posts and interactive multimedia content, produced by Daily Bruin staff.</p>
+						</div><!-- end div#propResults -->
+					</div><!-- end div.row -->
+				</div><!-- end div.span8 -->
+				<div class="span4">
+					<div class="fb_twitter">
+						<a href="https://twitter.com/share" class="twitter-share-button" data-text="Follow 2012 Daily Bruin election coverage at" data-via="dailybruin" data-size="large" data-related="dailybruin">Tweet</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						
+						<div class="fb-like" data-send="false" data-layout="box_count" data-width="450" data-show-faces="true" data-action="recommend"></div>
+					</div><!-- end div.fb_twitter -->
+					
+					<blockquote class="twitter-tweet"><p>Barack Obama is a public figure on par with Kennedy and an orator on par with Reagan. <a href="https://twitter.com/search/%23dbelections12">#dbelections12</a></p>&mdash; Eitan Arom (@Eitan_Arom) <a href="https://twitter.com/Eitan_Arom/status/266072767064055808" data-datetime="2012-11-07T07:01:05+00:00">November 7, 2012</a></blockquote>
+					<script src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					
+					<blockquote class="twitter-tweet"><p>Obama very fair to Romney family on legacy of public service--a generous comment that he can certainly afford to make.</p>&mdash; Alexandra Tashman (@alexandra_tash) <a href="https://twitter.com/alexandra_tash/status/266068046970486784" data-datetime="2012-11-07T06:42:20+00:00">November 7, 2012</a></blockquote>
+					<script src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					
+					<blockquote class="twitter-tweet"><p>Romney gracious in defeat, remarking that “I pray that the president will be successful in guiding our nation.”</p>&mdash; Alexandra Tashman (@alexandra_tash) <a href="https://twitter.com/alexandra_tash/status/266062701745303552" data-datetime="2012-11-07T06:21:05+00:00">November 7, 2012</a></blockquote>
+					<script src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					
+					<!-- <a class="twitter-timeline"  href="https://twitter.com/dailybruin/daily-bruin-opinion" data-widget-id="253659787735207936">Tweets from @dailybruin/daily-bruin-opinion</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
+
+					<div id="reactionGallery">
+						<h3>Reactions to election results</h3>
+						<p><a href="http://www.dailybruin.com/gallery/westwood-community-reacts-to-2012-election-results"><img id="mojologo" src="static/mojoLogo.jpg" /> Read a live blog of what people in Westwood had to say about election night as it unfolded.</a></p>
+						<a href="http://www.dailybruin.com/gallery/westwood-community-reacts-to-2012-election-results">
+							<div id="galleryWrap">
+								<img src="static/photoGallery.jpg" />
+								<span class="caption">Photo gallery of reactions</span>
+							</div>
+						</a>
+					</div><!-- end div#reactionGallery -->
+				</div><!-- end div.span4 -->
+				
+			</div><!-- end div#electionResults -->
+			<div class="row">
+				<div class="span12" id="inner">
+					<div class="row">
+						<div class="span8 statsStories">
+							
+							<div class="well nopad"><a href="allstats/index.html"><h2>Elections Statistics</h2></a>
+								<p>The Daily Bruin collaborated with the UCLA Department of Statistics to gauge the political climate on campus during the 2012 election season.</p>
+								<p>An anonymous online survey was emailed to 8,000 undergraduates through the UCLA Registrar&rsquo;s Office, which students could fill out between Sept. 24 and Oct. 9. The survey received 718 responses &mdash; a 9 percent response rate. While low, the responses matched UCLA student demographics and are an accurate indicator of the campus. The margin of error for the survey overall is 4.1 percent.</p>
+								<p>Students in the UCLA statistics course 140SL, which is about statistical consulting, analyzed the responses to the survey.</p>
+								<p><a href="https://www.google.com/fusiontables/DataSource?docid=1IDhBGtghJrfxHmgHyy6BI9f6CwTZxt3oZTTf7fw">Browse the raw data online</a> or <a href="static/surveyquestions.pdf">download the complete list of questions asked</a>.</p>
+
+							<a href="http://www.dailybruin.com/article/2012/11/survey-shows-students-lack-political-involvement-on-campus"><div class="stats">
+									<img src="static/apathy160.jpg" alt="political involvement on campus"/><p class="promo_head">Survey shows students lack political involvement on campus</p>
+									<p class="byline">By Nicole Chiang</p>
+									<br style="width:100%;display:block;clear:both" />
+							</div></a>
+							<a href="http://www.dailybruin.com/article/2012/11/survey-finds-ulatino-students-more-likely-to-support-obama"><div class="stats">
+									<img src="static/latino160.jpg" alt="Latino students support Obama"/><p class="promo_head">Survey finds Latino students more likely to support Obama</p>
+									<p class="byline">By Kristen Taketa</p>
+									<br style="width:100%;display:block;clear:both" />
+							</div></a>
+							<a href="http://www.dailybruin.com/article/2012/10/5090d7c127bfd"><div class="stats">
+									<img src="static/gender160.jpg" alt="gender gap in Obama support"/><p class="promo_head">Poll finds gender gap in Obama support</p>
+									<p class="byline">By Kylie Reynolds</p>
+									<br style="width:100%;display:block;clear:both" />
+							</div></a>
+				
+							<a href="http://www.dailybruin.com/article/2012/10/poll-finds-prop-30-awareness-low-among-ucla-students"><div class="stats">
+									<img src="static/prop30x160.jpg" alt="low Prop. 30 awareness"/><p class="promo_head">Poll finds Prop. 30 awareness low among UCLA students</p>
+									<p class="byline">By Andra Lim &amp; Sonali Kohli</p>
+									<br style="width:100%;display:block;clear:both" />
+							</div></a>
+
+							<a href="allstats/index.html"><button class="btn btn-info white btn-electiondata">
+								Explore the full set of survey data and the Daily Bruin's analysis of Proposition 30, <br/> Gov. Jerry Brown's tax initiative
+							</button></a>
+						</div><!-- end div.well -->
+						</div> <!-- end of span8 -->
+
+						<div class="span4">
+
+							<!-- <div class="alert alert-error" id="checkback"> Check back here all day on Election Day, Nov. 6, to see <b>live exit poll results</b> from voters around UCLA and Westwood. 
+							</div> -->
+							<h3>Live exit poll results</h3>
+							<p>Daily Bruin reporters were at Westwood voting locations all day Tuesday collecting exit poll results. The charts below are updated live as we collect responses. <a href="exitpolls.html">View more exit poll results &raquo;</a></p>
+							<h5>President</h5>
+							<div id="presVisualization" style="width:300px;height:300px;"></div>
+								
+							<h5>Prop 30</h5>
+							<div id="propVisualization" style="width:300px;height:300px;"></div>
+											
+							<h3>What was on the ballot?</h3>
+							<p>Learn more about the <a href="http://www.dailybruin.com/article/2012/11/elections-2012-democrats-vs-republicans">candidates</a> and <a href="http://www.dailybruin.com/article/2012/11/elections-2012">measures</a> on the Los Angeles County ballot.</p>
+							
+						</div> <!-- end of span4 column -->
+					</div> <!-- inside row -->
+					<hr />
+					<div class="row">
+						<div class="span4">
+							<h3>UCLA Phone bankers in 2012 Elections</h3>
+							<iframe width="300" height="200" src="http://www.youtube.com/embed/i0rfN80qkkQ" frameborder="0" allowfullscreen></iframe>
+						</div><!-- end div.span4 -->
+						<div class="span4">
+							<h3 style="padding-top:26px;">Lambda Chi Alpha polling place</h3>
+							<iframe width="300" height="200" src="http://www.youtube.com/embed/ruiYuXZ76YI" frameborder="0" allowfullscreen></iframe>
+						</div><!-- end div.span4 -->
+						<div class="span4">
+							<h3>Google Hangout: Professor Daniel Mitchell</h3>
+							<iframe width="300" height="200" src="http://www.youtube.com/embed/a25ecG3uFqw" frameborder="0" allowfullscreen></iframe>
+						</div><!-- end div.span4 -->
+						<!-- <div class="span4" style="margin-top:47px;">
+							<a href="http://mojo.dailybruin.com/"><img src="http://mojo.dailybruin.com/wp-content/themes/mojo/img/logo.png" style="display:block;margin-left:auto;margin-right:auto;text-align:center;"/></a>
+							<p style="text-align:center;">Read more live elections stories from around Westwood on the Daily Bruin's mobile journalism blog, <a href="http://mojo.dailybruin.com">Mojo</a>.</p>
+							<ul>
+								<li><a href="http://mojo.dailybruin.com/live-blog-ucla-community-reacts-to-election-2012-results/">Live Blog: UCLA Community Reacts to Election 2012 Results</a></li>
+							</ul>
+						</div>-->
+					</div><!-- end div.row -->
+					<hr />
+					<h1>More elections stories</h1>
+					<div class="row" id="storylisting">
+						<div class="span6">
+							<p class="section_head">News</p>
+							<ul>
+								
+								<a href="http://www.dailybruin.com/article/2012/11/editorial-public-education-needs-to-be-viewed-as-a-whole"><li>Editorial: Public education needs to be viewed as a whole</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/11/president-barack-obama-edges-out-republican-candidate-mitt-romney-for-second-term"><li>President Barack Obama edges out Republican candidate Mitt Romney for second term</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/11/prop-30-fate-still-undecided"><li>Prop. 30 fate still undecided</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/11/list-mix-up-causes-students-to-cast-provisional-ballots-in-la-county"><li>List mix-up causes students to cast provisional ballots in LA County</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/11/ucla-undergrads-lean-left-exit-poll-shows"><li>UCLA undergrads lean left, exit poll shows</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/11/election-2012-first-time-voters-at-ucla"><li>First-time voters at UCLA</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/10/growing-number-of-independents-to-play-important-role-in-election"><li>Independents to play important role in election</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/10/voting-by-mail-provides-alternative-for-students"><li>Voting by mail provides alternative for students</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/10/taxpayers-association-files-lawsuit-against-csu-monterey"><li>Taxpayers association files lawsuit against CSU Monterey</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/10/last-presidential-debate-focuses-on-foreign-policy"><li>Last presidential debate focuses on foreign policy</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/10/usac-encourages-students-to-register-to-vote"><li>USAC encourages students to register to vote</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/10/uc-financial-future-depends-on-passage-of-proposition-30"><li>UC financial future depends on passage of Proposition 30</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/10/usac-passes-resolution-to-endorse-prop-30"><li>USAC passes resolution to endorse Prop. 30</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/10/gov-jerry-brown-speaks-at-proposition-30-rally-in-bruin-plaza"><li>Gov. Jerry Brown speaks at Proposition 30 rally in Bruin Plaza</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/10/_brown-talks-education-during-uc-newspaper-interview_"><li>Brown talks education during UC newspaper interview</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/10/second-debate-focuses-on-new-topics-lacks-new-insights"><li>Second debate focuses on new topics, lacks new insights</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/10/gov-brown-speaks-at-prop-30-rally-in-bruin-plaza"><li>Gov. Brown speaks at Prop. 30 rally in Bruin Plaza</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/10/brown-to-speak-at-ucla"><li>As a part of UC Day of Action, Gov. Jerry Brown will speak at UCLA to promote Proposition 30</li></a>
+								
+								<a href="http://www.dailybruin.com/blog/timestamp/2012/10/gov-jerry-brown-speaks-at-prop-30-rally-in-bruin-plaza-tuesday"><li>Gov. Jerry Brown speaking at Prop. 30 rally in Bruin Plaza Tuesday</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/10/biden-ryan-cover-foreign-and-domestic-policy-in-vice-presidential-debate"><li>Biden, Ryan cover foreign and domestic policy in vice presidential debate</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/10/ucla-students-gather-for-viewings-of-first-obama-romney-debate"><li>UCLA students gather for viewings of first Obama, Romney debate</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/10/percent-of-independent-voters-in-california-hits-all-time-high-with-change-in-primaries"><li>Percent of independent voters in California hits all-time high with change in primaries</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/09/gov-jerry-brown-signs-same-day-voter-registration-bill"><li>Gov. Jerry Brown signs same-day voter registration bill</li></a>
+								
+								<a href="http://www.dailybruin.com/blog/timestamp/2012/09/gov-jerry-brown-signs-bill-enabling-same-day-voter-registration-for-californians"><li>Gov. Jerry Brown signs bill enabling same-day voter registration for Californians</li></a>
+								
+								<a href="http://www.dailybruin.com/blog/timestamp/2012/09/new-website-allows-california-residents-to-register-to-vote-electronically"><li>New website allows California residents to register to vote electronically</li></a>
+								
+								<a href="http://www.dailybruin.com/blog/timestamp/2012/08/romney-officially-nominated-as-gop-presidential-candidate"><li>Romney officially nominated as GOP presidential candidate</li></a>
+								
+								<a href="http://www.dailybruin.com/blog/timestamp/2012/08/obama-emphasizes-higher-education-at-ohio-rally-criticizes-romneys-plans"><li>Obama emphasizes higher education at Ohio rally, criticizes Romney&#39;s plans</li></a>
+								
+								<a href="http://www.dailybruin.com/blog/timestamp/2012/08/republican-presidential-candidate-mitt-romney-chooses-paul-ryan-as-running-mate"><li>Republican presidential candidate Mitt Romney chooses Paul Ryan as running mate</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/07/uc-regents-voice-support-for-gov-browns-tax-measure-at-board-meeting"><li>UC Regents voice support for Gov. Brown’s tax measure at board meeting</li></a>
+								
+								<a href="http://www.dailybruin.com/article/2012/07/uc-board-of-regents-endorses-proposed-tax-initiative-freezes-tuition-rates"><li>UC Board of Regents endorses proposed tax initiative, freezes tuition rates </li></a>
+								
+								<a href="http://www.dailybruin.com/blog/timestamp/2012/07/uc-faces-possible-20-3-percent-tuition-increase-if-gov-browns-tax-initiative-fails"><li>UC faces possible 20.3 percent tuition increase if Gov. Brown&#39;s tax initiative fails</li></a>
+								
+							</ul>
+						</div>
+						<div class="span6">
+							<p class="section_head">Opinion</p>
+							<ul>
+								
+								<li><a href="http://www.dailybruin.com/article/2012/11/editorial-uc-leadership-should-not-have-relied-on-prop-30" style="font-style:italic">Editorial: UC leadership should not have relied on Prop. 30</a></li>
+								
+								<li><a href="http://www.dailybruin.com/article/2012/11/editorial-board-endorsements-elections-2012" style="font-style:italic">Editorial Board Endorsements: Elections 2012</a></li>
+								
+								<li><a href="http://www.dailybruin.com/article/2012/10/_ucla-students-lack-balance-in-political-perspectives_" style="font-style:italic">UCLA students lack balance in political perspectives</a></li>
+								
+								<li><a href="http://www.dailybruin.com/article/2012/10/_alexandra-tashman-programs-need-to-encourage-political-careers-for-women_" style="font-style:italic">Alexandra Tashman: Programs need to encourage political careers for women</a></li>
+								
+								<li><a href="http://www.dailybruin.com/article/2012/10/_ryland-lu-schools-should-be-more-balanced-less-politicized-when-it-comes-to-hiring-process_" style="font-style:italic">Ryland Lu: Professors should keep politics out of the classroom</a></li>
+								
+								<li><a href="http://www.dailybruin.com/article/2012/10/_ramsey-ugarte-spending-problems-limit-effectivness-of-tax-initatives_" style="font-style:italic">Ramsey Ugarte: Spending problems limit effectivness of tax initatives</a></li>
+								
+								<li><a href="http://www.dailybruin.com/article/2012/10/students-can-upset-medias-pull-over-politics-with-technology" style="font-style:italic">Eitan Arom: Students can upset media’s pull over politics with technology</a></li>
+								
+								<li><a href="http://www.dailybruin.com/article/2012/10/students-must-actively-seek-truth-in-debate" style="font-style:italic">Maia Ferdman: Students must actively seek truth in debate</a></li>
+								
+								<li><a href="http://www.dailybruin.com/article/2012/10/_including-libertarian-candidate-gary-johnson-in-the-debates-would-broaden-the-discourse_" style="font-style:italic">Ramsey Ugarte: Including Libertarian candidate Gary Johnson in the debates would broaden the discourse</a></li>
+								
+								<li><a href="http://www.dailybruin.com/article/2012/10/ryland-lu-_voting-laws-should-work-to-encourage-educate-constituents_" style="font-style:italic">Ryland Lu: Voting laws should work to encourage, educate constituents</a></li>
+								
+								<li><a href="http://www.dailybruin.com/article/2012/09/eitan-arom-_choosing-organic-or-genetically-modified-foods-is-up-to-the-consumer_" style="font-style:italic">Eitan Arom: Choosing organic or genetically modified foods is up to the consumer</a></li>
+								
+							</ul>
+						</div>
+					</div><!-- end of second row-->
+
+				</div> <!-- this is the end of span12 inner, all of the body content -->
+			</div> 
+		</div> <!-- this is the end of div container -->
+
+
+	</div><!-- end div#middle-container -->
+
+
+	<footer>
+		<p id="footer-nav"><a class="coloredlink" href="index.html">Elections 2012</a>  |  <a href="http://dailybruin.com/">Home</a>  |  <a href="http://dailybruin.com/news">News</a>  |  <a href="http://dailybruin.com/sports">Sports</a>  |  <a href="http://dailybruin.com/ae">A&amp;E</a>  |  <a href="http://dailybruin.com/opinion">Opinion</a></p>
+		<p id="footer-copy">Site by Byron Lutz and Kelly Zhou, Bruin senior staff. Content &copy; 2012 the Daily Bruin.</p>
+	</footer>
+
+
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="static/bl/js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+
+        <script src="static/bl/js/vendor/bootstrap.min.js"></script>
+
+        <script src="static/bl/js/plugins.js"></script>
+        <script src="static/bl/js/main.js"></script>
+
+        <script>
+            var _gaq=[['_setAccount','UA-28181852-10'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
